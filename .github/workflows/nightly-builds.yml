@@ -1,7 +1,7 @@
 name: Nightly builds
 on:
   schedule:
-    - cron: '30 22 * * *' # Run at 12 AM UTC.
+    - cron: '45 22 * * *' # Run at 12 AM UTC.
 jobs:
   build:
     name: Nightly builds
